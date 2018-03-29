@@ -3,14 +3,11 @@
 
 using namespace std;
 
-
-
-int count = 1;
-
 int main(){
-	string user_line;
-
 	
+	string user_line;
+	int count = 1;
+	 
 	cout << "Type something: ";
 	getline(cin, user_line);
 	int a=user_line.length();
@@ -27,8 +24,7 @@ int main(){
 			count++;
 		}
 		else{cout << user_line[i];}
-
 	}
-
+	
 	return 0;
 }
